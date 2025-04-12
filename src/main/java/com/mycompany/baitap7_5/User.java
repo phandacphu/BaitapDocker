@@ -9,6 +9,7 @@ package com.mycompany.baitap7_5;
  * @author ACER
  */
 public class User {
+
     private String userId;
     private String email;
 
@@ -25,4 +26,7 @@ public class User {
         this.email = email;
     }
 
+    public void updateEmail(String newEmail) {
+        this.email = newEmail;
+    }
 }
